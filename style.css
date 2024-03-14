@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+ 
+    
+}
+.header{
+    width: 100%;
+    height: 100vb;
+   background-image: url("image/Home_header\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+
+}
+
+
+.photo{
+    float: right;
+    width: 835.678px;
+    height: 1014.024px;
+    }
+.featurs{
+    width: 100%;
+    height: 100vb;
+   background-image: url("image/Features.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+ 
+
+    }
+.Key-Features{
+    width: 100%;
+    height: 100vb;
+   background-image: url("image/Customers_Need\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    }
+#contact{
+        border: 2px solid #007AFF;
+     
+        text-align: center;
+    }
