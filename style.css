@@ -54,3 +54,21 @@ body{
      
         text-align: center;
     }
+    @media only screen and (max-width: 800px) {
+        .photo {
+            display: none;
+        }
+       
+      }
+    @media only screen and (max-width: 600px) {
+        .photo img{
+
+        width: 80%;
+        height: 400px;
+        }
+        .freatures-photo{
+            display: none;
+        }
+       
+      }
+   
