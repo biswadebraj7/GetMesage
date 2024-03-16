@@ -8,90 +8,45 @@ a{
 }
 li{
     list-style: none;
-}
-body{
- 
-    
-}
+} 
 .header{
     width: 100%;
     height:100vh;
-    background-image: url("image/banner.png");
+    background-image: url("image/desktop/desktop-header.jpg");
     background-repeat: no-repeat;
-    background-position:top;
+    /* postion change to right from center  */
+    background-position:right;
     background-size:contain;
-    background-position-x: center;
- 
-    z-index: 12;
-
-}
-
-.photo{
-    position: relative;
-  display: none;
-
-}
-.photo img{
-    width: 100%;
-    height: 1014.024px;
-   position:static;
-   right: -300px;
-   top: -150px;
-   transform: rotate(-12.82deg);
-
-}
+    /* background-position-x: center; */ 
+    z-index: 12; 
+} 
 .featurs{
     width: 100%;
-    height: 100vb;
-   background-image: url("image/Features.png");
+    height: 90vh;
+    background-image: url("image/Features.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: cover; 
+    }
  
-
-    }
-Key-Features{
-    width: 100%;
-    height: auto;
-   background-image: url("image/Customers_Need\ \(1\).png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-
-    }
 #contact{
-        border: 2px solid #007AFF;
-     
+        border: 2px solid #007AFF; 
         text-align: center;
-    }
-.mobole-f-photo{
-    display: none;
-}
-    @media only screen and (max-width: 800px) {
-        .photo {
-            display: none;
-        }
-        .freatures-photo{
-            display: none;
-        }
-      }
-    @media only screen and (max-width: 600px) {
-    
-        .mobole-f-photo{
-            display: block;
-            width: 100%;
-            height: 400px;
-        }
-        
+    } 
+@media only screen and (max-width: 800px) {
      
-        .photo img{
-
-        width: 80%;
-        height: 400px;
-        }
-        .freatures-photo{
-            display: none;
-        }
-       
-      }
-   
+}
+@media only screen and (max-width: 600px) { 
+     
+    .header{
+        background-image: url("image/mobile/header.png");
+        background-position:top;
+    }
+    .featurs{
+        height: min-content;
+        background-image: url("image/mobile/feature.png");
+        background-size: 100%;
+        background-position: center;
+    }
+    
+}
