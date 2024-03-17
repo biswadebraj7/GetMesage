@@ -16,7 +16,7 @@
     
   </head>
   <body class="min-w-screen">
-    <header class="w-full header relative flex flex-col items-center  ">
+    <header class="w-full header flex flex-col items-center ">
       <div  class="container w-full lg:w-[75%] ">
         <div class="navbar pt-3 md:pt-8">
           <div class="navbar-start flex justify-between w-full">
@@ -30,7 +30,7 @@
               <div tabindex="0" role="button" class="btn btn-ghost text-white text-4xl lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17h7M5 12h14M5 7h14"/></svg>
               </div>
-              <ul tabindex="0" class="dropdown-content mt-3 z-[1] p-2 shadow bg-[#007AFF] rounded-box w-[95vw] h-[50vh] navbar-end flex flex-col justify-between py-10 text-center items-center">
+              <ul tabindex="0" class="dropdown-content mt-3 z-[1] p-2 shadow bg-[#007AFF] rounded-box w-[95vw] h-[50vh] md:h-[30vh] navbar-end flex flex-col justify-between py-10 text-center items-center">
                 <li><a href="" class="text-base font-medium text-white">Home</a></li>
                 <li><a href="https://carsmessages.com/Home/Privacy" class="text-base font-medium text-white">Privacy</a></li>
                 <li><a href="https://carsmessages.com/Home/UserData" class="text-base font-medium text-white">User Data</a></li>
@@ -52,17 +52,17 @@
 
         <div class="grid lg:grid-cols-2 grid-cols-1">
           <div class="md:pt-28 lg:pt-36 xl:pt-48 p-4">
-            <h1 class="font-bold text-4xl md:text-6xl text-slate-900 w-1/2 md:w-full ">Instantly message other car owners.</h1>
-            <p class="font-normal text-lg text-black/80 pt-6 w-[90%] md:w-full">Welcome to "Unblock My Car" – your ultimate parking assistant designed to keep your parking hassle-free! Say goodbye to blocked cars and hello to seamless parking experiences with our innovative app.</p>
-            <div class="flex flex-col justify-center md:justify-normal md:flex-row gap-8 pt-14 w-full">
+            <h1 class="font-bold text-4xl md:text-6xl text-slate-900 w-1/2 md:w-2/3 lg:w-full ">Instantly message other car owners.</h1>
+            <p class="font-normal text-lg text-black/80 pt-6 w-[90%] md:w-[60%] lg:w-full">Welcome to "Unblock My Car" – your ultimate parking assistant designed to keep your parking hassle-free! Say goodbye to blocked cars and hello to seamless parking experiences with our innovative app.</p>
+            <div class="flex flex-col justify-center md:justify-normal md:flex-row lg:gap-8 pt-14 w-full">
               <div>
                 <a href="https://play.google.com/store/apps/details?id=com.carsmessages">
-                  <img class=" w-[70%] md:w-full" src="./image/google-play.png" alt="">
+                  <img class=" w-[70%] lg:w-full" src="./image/google-play.png" alt="">
                 </a>
               </div>
               <div> 
                 <a href="https://play.google.com/store/apps/details?id=com.carsmessages">
-                  <img class=" w-[70%] md:w-full" src="./image/apple-app-store.png" alt="">
+                  <img class=" w-[70%] lg:w-full" src="./image/apple-app-store.png" alt="">
                 </a>
               </div> 
             </div> 
@@ -80,25 +80,26 @@
               Safety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer provided this information and may update it over time.
             </p> 
           </div> 
-          <div class="w-full  grid gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-20 md:pt-36 mb-16">
+          <div class="w-full  grid gap-5 grid-cols-1 md:grid-cols-3  pt-20 md:pt-36 mb-16 text-center">
             <div class="mx-auto ">
               <img src="./image/group1.png" class="mx-auto w-16 md:w-20 aspect-square mb-3 md:mb-6 " alt="">
-              <span class="font-bold text-center  text-white  text-2xl md:text-3xl py-6 ">Easy Features</span> 
+              <span class="font-bold text-center  text-white  text-2xl lg:text-3xl py-6 ">Easy Features</span> 
             </div>
             <div class="mx-auto">
               <img src="./image/group2.png" class="mx-auto w-16 md:w-20 aspect-square mb-3 md:mb-6 " alt="">
-              <span class="font-bold text-center text-2xl md:text-3xl pt-6">Good user Experience</span> 
+              <span class="font-bold text-center text-2xl lg:text-3xl pt-6">Good user Experience</span> 
             </div>
             <div class="mx-auto">
               <img src="./image/group3.png" class="mx-auto w-16 md:w-20 aspect-square mb-3 md:mb-6 " alt="">
-              <span class="font-bold text-2xl md:text-3xl text-center pt-6">Clean Design</span> 
+              <span class="font-bold text-2xl lg:text-3xl text-center pt-6">Clean Design</span> 
             </div> 
           </div> 
         </div>
       </div>
       <!--Key Features: -->
       <section class=" relative flex flex-col items-center"> 
-        <div class=" mt-[50vh] md:mt-0 container w-full lg:w-[75%] py-12 p-4"> 
+        <!-- Key Features Lists ---------  -->
+        <div class=" mt-[50vh]  md:mt-[56vh] lg:mt-0 container w-full lg:w-[75%] py-12 p-4"> 
           <div class=" grid lg:grid-cols-2 grid-cols-1 md:mb-40"> 
             <div class="">
               <div class="pb-14 pt-12">
@@ -135,7 +136,7 @@
             </div>
           </div> 
         </div> 
-        <div class="absolute top-0 right-0 lg:w-1/3 h-1/2">
+        <div class="absolute top-0 right-0 w-full md:w-[80%] lg:w-1/3 h-1/2">
           <img class="" src="./image/desktop/keyfeatures.jpg" alt="">
         </div> 
       </section>
@@ -179,12 +180,12 @@
         </div>
       </section> 
       <!--  --Feedback----------- -->
-      <div class="bg-[#F2F5F8] pt-24 pb-20 md:pb-40 p-4 flex flex-col items-center justify-center">
+      <div class="bg-[#F2F5F8] pt-24 pb-20  lg:pb-40 p-4 flex flex-col items-center justify-center">
         <div class=" container w-full lg:w-[75%]">
-          <div class="grid lg:grid-cols-2 grid-cols-1"> 
+          <div class="grid md:grid-cols-2 grid-cols-1"> 
             <div class="mb-16 w-full lg:w-2/3">
-              <h1 class="text-left text-black font-bold text-4xl lg:text-5xl"> Feedback from our customers </h1>
-              <p class="text-left pt-5 text-black text-lg font-normal">
+              <h1 class="  text-black font-bold text-4xl lg:text-5xl"> Feedback from our customers </h1>
+              <p class=" w-full md:w-[80%] lg:w-full pt-5 text-black lg:text-lg font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
               </p>
               <div class="flex gap-8 items-center mt-6">
@@ -243,18 +244,18 @@
       <div class=" container w-full lg:w-[80%]">
         <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
           <div class="flex items-center justify-center relative">
-            <img class="max-w-[180px] lg:max-w-[600px]  absolute  left-[-10px] lg:bottom-10  lg:right-[30%]" src="./image/slide/ladyhodingmobile.png" alt="">
+            <img class="max-w-[180px] md:max-w-[250px] lg:max-w-[600px]  absolute  left-[-10px] md:top-[-100%] lg:top-[-90%]  lg:right-[30%]" src="./image/slide/ladyhodingmobile.png" alt="">
           </div>
-          <div class="mx-auto mb-5 md:mb-24 w-full flex  items-start md:items-center justify-end md:justify-center ">
+          <div class="mx-auto mb-5 lg:mb-24 w-full flex  items-start md:items-center justify-end md:justify-center ">
             <div class="w-1/2 md:w-full p-3 md:p-0">
               <h1 class="font-bold  text-lg md:text-xl lg:text-4xl xl:text-5xl text-white pb-2">Now available App<br> Download Store</h1>
-              <div class="flex flex-col md:flex-row gap-3 md:gap-8 md:pt-14 mb-4">
-                <div class="h-6 md:h-auto">
+              <div class="flex flex-col md:flex-row gap-3 md:gap-8 lg:pt-14 mb-4">
+                <div class="h-6 md:h-10 lg:h-auto">
                   <a href="https://play.google.com/store/apps/details?id=com.carsmessages">
                     <img class="h-full" src="./image/google-play.png" alt="">
                   </a>
                 </div>
-                <div class="h-7 md:h-auto">
+                <div class="h-7 md:h-10 lg:h-auto">
                   <a href="https://play.google.com/store/apps/details?id=com.carsmessages">
                     <img class="h-full" src="./image/apple-app-store.png" alt="">
                   </a>
