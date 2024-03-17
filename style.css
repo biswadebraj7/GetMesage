@@ -10,7 +10,7 @@ li{
     list-style: none;
 } 
 .header{
-    width: 100%;
+    width: 100vw;
     height:100vh;
     background-image: url("image/desktop/desktop-header.jpg");
     background-repeat: no-repeat;
@@ -34,7 +34,21 @@ li{
         text-align: center;
     } 
 @media only screen and (max-width: 800px) {
-     
+    .header{  
+        width: 100%;
+        background-image: url("image/mobile/header.png");
+        background-size: cover;
+        background-position:top;
+        height: min-content;
+
+    }
+    .featurs{
+        height: min-content;
+        background-image: url("image/mobile/feature.png");
+        background-size: 40%; 
+        background-position-x: left;
+        background-position-y: bottom;
+    }
 }
 @media only screen and (max-width: 600px) { 
      
